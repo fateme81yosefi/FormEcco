@@ -1,0 +1,16 @@
+.containFooter{
+    background-color: rgb(244, 244, 244);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+
+}
+@media screen and (min-width: 1200px) {
+    .containFooter{
+        margin-top: 0rem;
+
+    }
+}

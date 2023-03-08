@@ -1,0 +1,65 @@
+.logo {
+  width: 65%;
+  z-index: 11;
+  max-width: 200px;
+  position: absolute;
+}
+.contHeadLogo {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  align-items: center;
+}
+
+.circle {
+  position: absolute;
+  /* background-color:#125854; */
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 400px) {
+  .circle {
+    width: 9rem;
+    height: 9rem;
+  }
+  .logo {
+    width: 50%;
+  }
+  .contHeadLogo{
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+  }
+}
+@media screen and (min-width: 700px) {
+  .contHeadLogo {
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .logo {
+    width: 42%;
+  }
+  .contHeadLogo {
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+  .circle {
+    position: absolute;
+    /* background-color:#125854; */
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contHeadLogo {
+    margin-bottom: 92px;
+    margin-top: 92px;
+  }
+}

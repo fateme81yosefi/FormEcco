@@ -1,0 +1,225 @@
+.ApiTop {
+  background: rgb(60, 61, 63);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.95rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  margin-top: -12px;
+  font-size: 15px;
+  word-spacing: -3px;
+
+}
+.projButton {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0.95rem 1rem;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  direction: rtl;
+}
+.projButton img {
+  width: 20px;
+}
+.containtxttitle {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  font-weight: bold;
+}
+.circlieLittle {
+  background: rgb(41, 175, 212);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-left: 6px;
+}
+.containApI {
+  width: 100%;
+}
+.platforntxt {
+  font-size: 0.65rem;
+  font-weight: 400;
+  margin-right: 5px;
+  white-space: nowrap;
+  color: #3f3f3f;
+  word-spacing: -3px;
+
+
+}
+.containplatform1 {
+  background-color: transparent;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 82%;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #f5f4f4;
+  z-index: 12;
+  max-width: 500px !important;
+}
+#containplatformDown {
+  margin-top: -58px;
+}
+.dash {
+  display: none;
+}
+.containcircTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  word-spacing: -3px;
+
+}
+.containtxttitle {
+  width: 100%;
+}
+.platforntxt {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ssssssss{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: right;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  width: 100%;
+  max-width: 190px;
+}
+.containplatform1 img{
+  width: 100%;
+  height: auto;
+  object-fit:contain
+}
+@media screen and (min-width: 330px) {
+  .ApiTop {
+  }
+}
+@media screen and (min-width:440px) {
+  .containtxttitle {
+    align-items: center;
+    white-space: nowrap;
+  }
+
+  .dash {
+    display: block;
+    margin-right: 5px;
+
+  }.containtxttitle {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width:500px) {
+
+  
+  .projButton {
+    padding: 0.5rem 1.5rem;
+    padding: 0.95rem 1.5rem;
+
+  }
+  .ApiTop {
+    margin-top: 4px;
+  }
+  .platforntxt {
+    font-size: 0.75rem;
+  }
+  #containplatformDown {
+    margin-top: -82px;
+  }
+}
+@media screen and (min-width: 600px) {
+
+.ssssssss{
+  max-width: 260px;
+}
+}
+@media screen and (min-width: 700px) {
+  .containplatform1 {
+    width: 83%;
+    font-size: 15px;
+    margin-top: 0;
+    max-width: 470px !important;
+  }
+  #containplatformDown {
+    /* margin-top: -16%; */
+  }
+  .ApiTop {
+    font-size: 15px;
+    margin-top: 6px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .ApiTop {
+    margin-top: 2%;
+  }
+ 
+}
+@media screen and (min-width: 800px) {
+  .platforntxt {
+    font-size: 15px;
+  }
+  .containtxttitle {
+    font-size: 15px;
+    font-weight: 900;
+  }
+}
+
+@media screen and (min-width: 992px) {
+
+}
+@media screen and (min-width: 1000px) {
+  .ApiTop {
+    margin-top: 0px;
+  }
+  .containplatform1 {
+    max-width: 440px !important;
+    width: 72%;
+  }
+ 
+}
+@media screen and (min-width: 1200px) {
+  .ApiTop {
+    margin-top: 3px;
+    padding: 0.85rem 0.85rem;
+    font-size: 15px;
+    font-weight: 800;
+    border-radius: 10px;
+  }
+  .projButton {
+    padding: 1rem 1.2rem;
+    border-radius: 13px;
+    margin-top: 10px;
+  }
+  .containtxttitle {
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  .projButton img {
+    width: 27px;
+  }
+  .platforntxt {
+    font-size: 14px;
+  }
+  .circlieLittle {
+    background: rgb(41, 175, 212);
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    margin-left: 14px;
+  }
+}
+@media screen and (min-width: 1400px) {
+}

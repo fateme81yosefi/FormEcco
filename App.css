@@ -1,0 +1,21 @@
+@font-face {
+    font-family: iransansdn;
+    font-weight: 100;
+    src: url("./fonts/IRANSansWeb.ttf");
+  }
+  @font-face {
+    font-family: iransansdn;
+    font-weight: 400;
+    src: url("./fonts/IRANSansWeb_Medium.ttf");
+  }
+  @font-face {
+    font-family: iransansdn;
+    font-weight: bold;
+    src: url("./fonts/IRANSansWeb_Bold.ttf");
+  }
+
+  * {
+    font-family: iransansdn;
+    user-select: none;
+  }
+  

@@ -1,0 +1,102 @@
+.containSocial {
+  background-color: white;
+  width: 89%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 47px;
+  max-width: 473px !important;
+  font-size: 14px;
+  margin-bottom: 20px;
+
+}
+.containSocial span {
+  text-align: center;
+  white-space: nowrap;
+  word-spacing: -1.6px;
+}
+.socialMediaLogo {
+  width: 26%;
+  margin-right: 10px;
+  max-width: 20px;
+
+}
+.containLogo {
+  display: flex;
+  align-items: center;
+}
+@media screen and (min-width: 400px) {
+  .containSocial span {
+    text-align: right;
+  }
+  .socialMediaLogo {
+    width: 18%;
+    margin-right: 10px;
+    max-width: 30px;
+
+  }
+}
+@media screen and (min-width: 500px) {
+
+.containSocial{
+  padding: 1rem 3rem;
+
+}
+}
+@media screen and (min-width: 700px) {
+  .containSocial {
+    width: 90%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    font-size: 15px;
+  }
+  .socialMediaLogo {
+    width: 20px;
+    margin: 0;
+    margin-right: 11px;
+    }
+  .containLogo {
+    width: 33%;
+    justify-content: left;
+  }
+}
+@media screen and (min-width: 800px) {
+  .containLogo {
+    width: 22%;
+  }
+  .containSocial {
+    padding: 1rem 2rem;
+  }
+  .socialMediaLogo {
+    width: 20px;
+    margin: 0px 5px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .containSocial {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .containSocial {
+    font-size: 15px;
+    margin-bottom: 26px;
+
+  }
+  .socialMediaLogo {
+    max-width: 26px;
+    margin: 0px 6px;
+    width: 26px;
+  }
+  .containSocial {
+    width: 76%;
+    max-width: 473px !important;
+  }
+  .containLogo{
+    justify-content: left;
+
+  }
+}
